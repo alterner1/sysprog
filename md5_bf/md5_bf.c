@@ -5,7 +5,6 @@
 #include "md5.h"
 #include "version.h" 
 
-
 #define START   0x20 //space
 #define END     0x7E //~ 
 
@@ -57,7 +56,9 @@ int u_threads () {
 int brute_force(const uint32_t hash[4], byte_t* result, int maxlen) {
     byte_t str[maxlen + 1];
 int nthreads = u_threads();
+
 // #pragma omp parallel for num_threads(nthreads)
+
     for (int i = 0; i < maxlen; i++) {
         if (brute_force_fixed_length(hash, result, str, 0, i)) return 1;
     }

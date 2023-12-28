@@ -15,7 +15,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-
     int ftypes[] = {0, 0, 0, 0, 0, 0, 0, 0};
     if (d) {
       while ((dir = readdir(d)) != NULL) {
@@ -64,5 +63,4 @@ int main(int argc, char* argv[]) {
     printf("Point directory to filestat!\n");
     return 1;
     }
-  
 }

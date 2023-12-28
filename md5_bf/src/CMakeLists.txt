@@ -7,8 +7,6 @@ project(Libs)
 add_library(md5 SHARED 
             ../src/md5.c
           )
-
-
 target_include_directories(md5
     PRIVATE 
          ../lib
