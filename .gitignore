@@ -1,2 +1,5 @@
 *.o
-main
+build/
+lib/
+bin/
+.gitsubmodules
