@@ -1,8 +1,8 @@
 
 ## Sysprogramming Tasks 
-* [Filestat](#filestat)
-* [MD5_bruteforcer](#md5_bf)
-* [P2P_chat](#p2p_chat) 
+* [Filestat](/filestat/README.md)
+* [MD5_bruteforcer](/md5_bf/README.md)
+* [P2P_chat](/p2p_chat/README.md) 
 
 
 ### filestat 
